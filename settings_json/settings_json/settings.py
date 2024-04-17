@@ -25,7 +25,7 @@ class Settings:
     write_json()
         Writes the current settings (stored in self.data) to the JSON settings file, ensuring data persistence.
     """
-    file_path = "data/settings.json"
+    file_path = "../settings.json"
 
     def value_for_key(self, key):
         """
