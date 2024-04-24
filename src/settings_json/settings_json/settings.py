@@ -32,7 +32,7 @@ class Settings:
 
     def set_value_for_json(self):
         current_script_path = os.path.dirname(__file__)
-        self.file_path = os.path.join(current_script_path, self.file_path, )
+        self.file_path = os.path.join(current_script_path, self.file_path)
 
 
     def value_for_key(self, key):
